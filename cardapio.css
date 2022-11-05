@@ -1,0 +1,45 @@
+body {
+   
+    background: black;
+}
+.container-cardapio{
+    
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 700px;
+    
+    background: black;
+    
+}
+.card-cardapio{
+    margin: 10px;
+    align-items: center;
+    width: 70%;
+    
+}
+body img{
+    transition: all 0.5s;
+    cursor: pointer;}
+body img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+
+}
+.container-contatos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 70%;
+    height: 700px;
+    background-image: url("img/decoracao.png");
+    background-size: 100% 700px;
+}
+.contatos{
+   align-items: center;
+   display: flex;
+   justify-items: center;
+   gap: 100px;
+   
+}
+
